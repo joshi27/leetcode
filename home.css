@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+body{
+    background-color: rgb(240, 248, 255);
+}
+header {
+  background-color: black;
+  padding: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.ltco{
+  font-size: 24px;
+  padding-left: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  padding-inline: 10px;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+.nav-links a:hover {
+    background-color: white;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+}  
+
+.main{
+    background-image: linear-gradient(to bottom, black, gray);
+    height: 300px;
+    text-align: center;
+    padding-right: 80px;
+    padding-top: 100px;
+    justify-content: center;
+    line-height: 1.5;
+    color: rgb(240, 248, 255);
+    /*transform: rotate(10deg);*/
+}
+.main p{
+    color: gray;
+}
+.button{
+    background-color: rgb(29, 160, 156);
+    position: relative;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 7px;
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.5ss ease-in-out;
+}
+  
+button:hover {
+    transform: scale(1.10);
+}
+
+
+.Exploring{
+    text-align: center;
+    line-height: 1.5;
+    padding: 50px;
+    color: gray;
+    background-color: white;
+}
+
+.right-div, .left-div{
+    width: 50%;
+    float: left;
+    background-color: white;
+}
+.link{
+    color: rgb(91, 91, 240);
+}
+.heading{
+    color: rgb(37, 154, 243);
+}
+.heading2{
+  color :  rgb(183, 137, 43);
+}
+.heading3{
+    color: rgb(29, 160, 156);
+}
+.symbol{
+    font-size: 30px;
+}
+
+.container_1, .last-container{
+    text-align: center;
+    line-height: 1.5;
+    font-size: large;
+    padding: 50px;
+    color: gray;
+    background-color: white;
+    border-top: 2px solid #cccccc89;
+}
+
+.container_1 b{
+    color: red;
+    font-size: 20px;
+}
+
+.last-container a {
+    color: rgb(91, 91, 240);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    border-top: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: 1px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+}
+
+.right-content a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
